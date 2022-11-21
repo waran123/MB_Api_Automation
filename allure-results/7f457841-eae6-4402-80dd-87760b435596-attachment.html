@@ -1,0 +1,34 @@
+<div>POST to https://phleboservice-testV2.medibuddy.in/applyPhleboLeave</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;leaveType&quot;: &quot;Sick Leave&quot;,
+    &quot;phleboId&quot;: &quot;103&quot;,
+    &quot;secondHalfLeave&quot;: 1,
+    &quot;firstHalfLeave&quot;: 1,
+    &quot;unavailableDate&quot;: &quot;2022-09-05&quot;,
+    &quot;remarks&quot;: &quot;Not well&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://phleboservice-testV2.medibuddy.in/applyPhleboLeave&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;leaveType&quot;: &quot;Sick Leave&quot;,
+    &quot;phleboId&quot;: &quot;103&quot;,
+    &quot;secondHalfLeave&quot;: 1,
+    &quot;firstHalfLeave&quot;: 1,
+    &quot;unavailableDate&quot;: &quot;2022-09-05&quot;,
+    &quot;remarks&quot;: &quot;Not well&quot;
+}&#39;
+</div>
