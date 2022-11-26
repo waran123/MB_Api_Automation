@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.medibuddy.Phlebo.api.test.Phelo_Base_Test">
+      <class name="com.qa.medibuddy.Phlebo.api.test.labs_FetchPackageDetails">
         <methods>
-          <include name="Post_add_labs_API"/>
+          <include name="fetch_Public_Details"/>
         </methods>
-      </class> <!-- com.qa.medibuddy.Phlebo.api.test.Phelo_Base_Test -->
+      </class> <!-- com.qa.medibuddy.Phlebo.api.test.labs_FetchPackageDetails -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

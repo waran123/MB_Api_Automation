@@ -4,6 +4,7 @@ public class Endpoints {
 
 	//This java class will give you the Endpoints which are consuming Phlebo Services
 	
+
 	public  static String BASE_URL = "https://phleboservice-testV2.medibuddy.in";
 	public static String CREATE_ORDER_ENDPOINT = BASE_URL +"/createorder";
 	public static String CHECK_SLOTS_BY_CITY_ENDPOINTS = BASE_URL +"/slot/checkSlotByCity";
@@ -21,6 +22,10 @@ public class Endpoints {
 	public static String VIEW_PHLEBO_LEAVES_BY_ID = BASE_URL +"/viewPhleboLeaveById";
 	public static String VIEW_PHLEBO_LEAVES = BASE_URL +"/viewAllPhleboLeaves";
 	public static String UPDATE_PINCODES = BASE_URL+"/onboardPhlebo/updatePincodes";
+	
+	
+	public static String BASE_URL1 = "https://www.medibuddy.in";
+	public static String FETCH_ORDERS = BASE_URL1+"/WAPI/Labs/FetchPackageDetails";
 	
 	
 

@@ -8,7 +8,7 @@ public class Get_All_Order {
 
 
 	@JsonIgnoreProperties(ignoreUnknown = true )
-	private ArrayList<String> city;
+	private ArrayList<String> city; 
 	private String appointmentFromDate ;
 	private String appointmentToDate ;
 	private Boolean tabular ;

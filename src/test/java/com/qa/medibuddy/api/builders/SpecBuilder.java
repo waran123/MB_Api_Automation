@@ -22,9 +22,27 @@ public  class SpecBuilder  {
 
 	}
 
+	public static RequestSpecification getRequestSpecification2() {
+		
+		return new RequestSpecBuilder().addHeader("Content-Type", "application/json").
+				addHeader("city", "Bengaluru").
+				addFilter(new AllureRestAssured()).
+				log(LogDetail.ALL).build();
+	
+			
+	}
+	
 	public static ResponseSpecification geResponseSpecification() {
 
 		return new ResponseSpecBuilder().
+				log(LogDetail.ALL).build();
+	}
+
+	public static RequestSpecification getRequestSpecification1() {
+		// TODO Auto-generated method stub
+		return new RequestSpecBuilder().addHeader("Content-Type", "application/json").
+				addHeader("city", "Bengaluru").
+				addFilter(new AllureRestAssured()).
 				log(LogDetail.ALL).build();
 	}
 
